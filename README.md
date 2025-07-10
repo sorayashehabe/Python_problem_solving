@@ -34,6 +34,21 @@ Input constraints:
 0 <= h <= 23
 0 <= m <= 59
 0 <= s <= 59
+## invert value
+Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives.
+
+[1, 2, 3, 4, 5] --> [-1, -2, -3, -4, -5]
+[1, -2, 3, -4, 5] --> [-1, 2, -3, 4, -5]
+[] --> []
+You can assume that all values are integers. Do not mutate the input array.
+## repeated string
+Write a function that accepts a non-negative integer n and a string s as parameters, and returns a string of s repeated exactly n times.
+
+Examples (input -> output)
+
+6, "I"     -> "IIIIII"
+5, "Hello" -> "HelloHelloHelloHelloHello"
+
 
 
 
